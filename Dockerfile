@@ -25,8 +25,8 @@ WORKDIR /var/www/content
 
 # Environment variables that make the reuse easier
 ENV WP_ROOT /usr/src/wordpress
-ENV WP_VERSION 4.8.3
-ENV WP_SHA1 8efc0b9f6146e143ed419b5419d7bb8400a696fc
+ENV WP_VERSION 4.9
+ENV WP_SHA1 6127bd2aed7b7c0a2c1789c8f17a2222a9081d6c
 ENV WP_DOWNLOAD_URL https://wordpress.org/wordpress-$WP_VERSION.tar.gz
 
 # Download WP and extract it to /usr/src/wordpress

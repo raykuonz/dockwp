@@ -20,7 +20,7 @@ services:
       - mysql
       - redis
   mysql:
-    image: mariadb:5.5
+    image: mariadb:10.3.4
     volumes:
       - ./db:/var/lib/mysql
     environment:

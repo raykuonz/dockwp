@@ -1,5 +1,5 @@
 - update the version number and sha1 key in dockerfile
 - docker-compose build
 - docker tag dockerwpbuild_wordpress ph03n1x/dockerwp:[version number]
-- docker tag dockerwpbuild_wordpress:[version number] ph03n1x/dockerwp:latest
+- docker tag ph03n1x/dockerwp:[version number] ph03n1x/dockerwp:latest
 - docker push ph03n1x/dockerwp:[version number]

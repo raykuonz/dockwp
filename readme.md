@@ -1,5 +1,20 @@
-- update the version number and sha1 key in dockerfile
-- docker-compose build
-- docker tag dockerwpbuild_wordpress ph03n1x/dockerwp:[version number]
-- docker tag ph03n1x/dockerwp:[version number] ph03n1x/dockerwp:latest
-- docker push ph03n1x/dockerwp:[version number]
+# DockWP
+## Docker + Nginx + Wordpress + Redis
+
+### Feature
+- Custom wordpress cron job
+- Support Redis cache
+- Fast setup with docker-compose 
+
+### Automated build on Dockerhub
+https://hub.docker.com/r/ph03n1x/dockwp/
+
+### Project requirement
+- docker
+- docker-compose
+
+### Build image
+`docker-compose build`
+
+### Test build
+`docker-compose up`
